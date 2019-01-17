@@ -5,9 +5,9 @@ element.innerText = "New Home"
 "New Home"
 */
 
-//Dont use globals. Work inside objects instead. This is just for practice purposes.
+/* Dont use globals. Work inside objects instead. This is just for practice purposes.
 
-//var myElement = document.querySelector("nav ul li a"); // Selects one item.
+var myElement = document.querySelector("nav ul li a"); // Selects one item.
 var myNav = document.querySelectorAll('nav ul li a'); //Selects all the items.
 var navLength = myNav.length;
 
@@ -18,3 +18,6 @@ if (navLength) {
         console.log(i.text + " - " + i.getAttribute('href'));
     }
 }
+*/
+
+var element = document.getElementById("divId");
