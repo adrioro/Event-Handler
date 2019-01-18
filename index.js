@@ -21,3 +21,7 @@ if (navLength) {
 */
 
 var element = document.getElementById("divId");
+
+var $d = document.getElementById("myID");
+var $text = $d.innerText;
+document.write("innerText of myID element is: " + $text);
