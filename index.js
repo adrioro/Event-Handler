@@ -22,6 +22,16 @@ if (navLength) {
 
 var element = document.getElementById("divId");
 
-var $d = document.getElementById("myID");
-var $text = $d.innerText;
-document.write("innerText of myID element is: " + $text);
+//More Practice:
+
+var one = document.querySelector("#liId");
+document.write(one + "<br>");
+
+var one = document.querySelector("#liId a");
+document.write(one + "<br>");
+
+var one = document.querySelector("#liId a").innerText;
+document.write(one + "<br>");
+
+var two = document.querySelector("#myDIV");
+document.write(two + "<br>");
